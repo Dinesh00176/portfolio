@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091e3a" />
+      <stop offset="50%" stop-color="#0a2a4a" />
+      <stop offset="100%" stop-color="#021427" />
+    </linearGradient>
+    <linearGradient id="ciscoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00bceb" />
+      <stop offset="50%" stop-color="#0d6efd" />
+      <stop offset="100%" stop-color="#00c9a7" />
+    </linearGradient>
+    <linearGradient id="gold2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg2)" rx="16" />
+  
+  <!-- Outer border -->
+  <rect x="20" y="20" width="760" height="460" fill="none" stroke="url(#ciscoGrad)" stroke-width="2" rx="12" opacity="0.8" />
+  <rect x="30" y="30" width="740" height="440" fill="none" stroke="#1e3a5f" stroke-width="1" stroke-dasharray="6,6" rx="8" />
+
+  <!-- Corner ornaments -->
+  <circle cx="30" cy="30" r="6" fill="#00bceb" />
+  <circle cx="770" cy="30" r="6" fill="#00bceb" />
+  <circle cx="30" cy="470" r="6" fill="#00bceb" />
+  <circle cx="770" cy="470" r="6" fill="#00bceb" />
+
+  <!-- Issuer Header -->
+  <text x="400" y="80" text-anchor="middle" fill="#7dd3fc" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" letter-spacing="4">CISCO NETWORKING ACADEMY</text>
+  <text x="400" y="115" text-anchor="middle" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" letter-spacing="2">CERTIFICATE OF COMPLETION</text>
+  
+  <line x1="280" y1="135" x2="520" y2="135" stroke="url(#ciscoGrad)" stroke-width="2" stroke-linecap="round" />
+
+  <!-- Awarded to -->
+  <text x="400" y="175" text-anchor="middle" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="13">Presented to recognize</text>
+  <text x="400" y="220" text-anchor="middle" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="800">M. Dinesh Kumar</text>
+  <text x="400" y="250" text-anchor="middle" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13">for successfully completing the course</text>
+
+  <!-- Title -->
+  <rect x="100" y="275" width="600" height="60" rx="10" fill="#0f2b48" stroke="#0284c7" stroke-width="1" />
+  <text x="400" y="312" text-anchor="middle" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700">Introduction to Modern AI</text>
+
+  <!-- Details / Footer -->
+  <text x="120" y="415" fill="#64748b" font-family="monospace" font-size="11">VERIFIED: 2025</text>
+  <text x="120" y="435" fill="#64748b" font-family="monospace" font-size="11">INSTITUTION: CISCO NETACAD</text>
+
+  <!-- Gold Seal -->
+  <g transform="translate(670, 400)">
+    <circle cx="0" cy="0" r="38" fill="url(#gold2)" opacity="0.95" />
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#78350f" stroke-width="2" stroke-dasharray="3,3" />
+    <text x="0" y="-8" text-anchor="middle" fill="#78350f" font-family="system-ui" font-size="9" font-weight="900" letter-spacing="1">CISCO</text>
+    <text x="0" y="6" text-anchor="middle" fill="#78350f" font-family="system-ui" font-size="11" font-weight="900">2025</text>
+    <text x="0" y="18" text-anchor="middle" fill="#78350f" font-family="system-ui" font-size="8" font-weight="700">CERTIFIED</text>
+  </g>
+</svg>
